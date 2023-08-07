@@ -1,0 +1,45 @@
+*{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+  
+
+}
+
+table{
+    width: 500px;
+    height: 300px;
+    border: 2px solid red;
+
+}
+
+tr{
+    width: 470px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    margin: 10px;
+    display: grid;  
+    text-align: center;
+    grid-template-columns: repeat(3, 3fr); /* Define três colunas com largura igual */ 
+    gap: 10px; /* Espaçamento entre as colunas */
+}
+
+td{
+    width: 133px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    margin: 10px;
+    display: grid;  
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr); /* Define três colunas com largura igual */ 
+}
+th{
+    margin: 10px;
+}
